@@ -73,7 +73,7 @@ The two best performing models are the Random Forest and XGBoost. Ultimately, I 
 
 ![Confusion Matrix_XGBoost](/Users/prathaprajaraman/Documents/Data_Science/Metis/classification/project/Images/Confusion Matrix_XGBoost.png)
 
-This model did a great job in correctly predicting hits and non-hits, as well as avoiding false negatives. However, there were quite a few false positives determined from this model. One limitation of this model is that it does not contain social media popularity. For example, several songs from Drake, one of the most popular artists of this generation, have low valence, loudness, and energy but are considered hits in large part from his reputation. Incorporating this into the model would be an excellent addition.
+This model did a great job in correctly predicting hits and non-hits, as well as avoiding false negatives. However, there were quite a few false negatives determined from this model. One limitation of this model is that it does not contain social media popularity. For example, several songs from Drake, one of the most popular artists of this generation, have low valence, loudness, and energy but are considered hits in large part from his reputation. Incorporating this into the model would be an excellent addition.
 
 
 
