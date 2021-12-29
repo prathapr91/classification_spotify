@@ -65,13 +65,13 @@ GridSearchCV was used on each model to tune hyper parameters and threshold tunin
 | ADA Boost     | 0.805    | 0.803   |
 | XG Boost      | 0.845    | 0.824   |
 
-![ROC curve](/Users/prathaprajaraman/Documents/Data_Science/Metis/classification/project/Images/ROC curve.png)
+![ROC_Curve](https://github.com/prathapr91/classification_spotify/blob/main/Images/ROC%20curve.png)
 
 
 
 The two best performing models are the Random Forest and XGBoost. Ultimately, I went with XGBoost due to mitigated overfitting concerns. At a probability threshold of 0.381, the F1 score is 82.4% and the ROC-AUC is 0.891. Please see below for a confusion matrix for further analysis:
 
-![Confusion Matrix_XGBoost](/Users/prathaprajaraman/Documents/Data_Science/Metis/classification/project/Images/Confusion Matrix_XGBoost.png)
+![Confusion Matrix_XGBoost](https://github.com/prathapr91/classification_spotify/blob/main/Images/Confusion%20Matrix_XGBoost.png)
 
 This model did a great job in correctly predicting hits and non-hits, as well as avoiding false negatives. However, there were quite a few false negatives determined from this model. One limitation of this model is that it does not contain social media popularity. For example, several songs from Drake, one of the most popular artists of this generation, have low valence, loudness, and energy but are considered hits in large part from his reputation. Incorporating this into the model would be an excellent addition.
 
